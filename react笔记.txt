@@ -1,0 +1,47 @@
+react
+相当于vue插槽功能   在自己cmp div中放{this.props.children} 在父级<cmp>ssss</cmp>
+
+redux: createStore/combinreReducers({xxx}}from 'redux'     
+ 
+
+store.js   
+
+let store=createStore(state,action);
+
+function reduser(){
+	switch(action.type){
+
+	case(action.type具体在函数给的type){
+           return
+	{
+		...state,
+		action.xxx    也可以:state的变量直接变  如果要用函数来调用就用 action.xx
+	}
+}
+}
+}
+
+在调用的组件里写
+
+内容
+调用函数 this.props.函数名
+export default connect((state,props)=>object.assign({},props,state,{
+
+	写函数(){
+	type:xxx,
+	名字：干啥
+}
+})(xxx)
+
+find(一个方法取值，找到就返回)  findindex(返回下标，全部遍历一遍)
+indexof lastindexof 返回下标，接受两个参数（值，可选起始位置）
+splice改变数组
+forEac filter不改变原数组 返回一个新的
+
+
+
+git
+fork复制  star收藏
+当李四复制张三的代码后，改点东西比如加了一个a.js 然后张三发起一个请求叫pull Request,然后呢张三看到了，觉得不错就需要合并
+watch（关注） 项目更新可以收到通知
+issue（事物卡片） 发现bug，但是目前没有成型代码，需要讨论
